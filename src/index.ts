@@ -1,13 +1,13 @@
 import { registerPlugin } from '@capacitor/core';
 
-import type { CapacitorSwipeBackPlugin } from './definitions';
+import type { CapacitorSwipeBackPluginDef } from './definitions';
 
-const CapacitorSwipeBack = registerPlugin<CapacitorSwipeBackPlugin>(
-  'CapacitorSwipeBack',
+const CapacitorSwipeBackPlugin = registerPlugin<CapacitorSwipeBackPluginDef>(
+  'CapacitorSwipeBackPlugin',
   {
     web: () => import('./web').then(m => new m.CapacitorSwipeBackWeb()),
   },
 );
 
 export * from './definitions';
-export { CapacitorSwipeBack };
+export { CapacitorSwipeBackPlugin };
