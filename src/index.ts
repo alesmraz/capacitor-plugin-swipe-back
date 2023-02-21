@@ -1,6 +1,6 @@
 import { registerPlugin } from '@capacitor/core';
 
-import type { CapacitorSwipeBackPluginDef } from './definitions';
+import type { CapacitorSwipeBackPlugin as CapacitorSwipeBackPluginDef } from './definitions';
 
 const CapacitorSwipeBackPlugin = registerPlugin<CapacitorSwipeBackPluginDef>(
   'CapacitorSwipeBackPlugin',
