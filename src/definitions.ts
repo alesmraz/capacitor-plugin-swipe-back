@@ -1,3 +1,4 @@
 export interface CapacitorSwipeBackPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  enable(): Promise<{ status: 'enable' }>;
+  disable(): Promise<{ status: 'disable' }>;
 }

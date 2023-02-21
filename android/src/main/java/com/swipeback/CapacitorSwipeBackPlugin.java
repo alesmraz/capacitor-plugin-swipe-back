@@ -9,14 +9,19 @@ import com.getcapacitor.annotation.CapacitorPlugin;
 @CapacitorPlugin(name = "CapacitorSwipeBack")
 public class CapacitorSwipeBackPlugin extends Plugin {
 
-    private CapacitorSwipeBack implementation = new CapacitorSwipeBack();
-
     @PluginMethod
-    public void echo(PluginCall call) {
+    public void enable(PluginCall call) {
         String value = call.getString("value");
 
         JSObject ret = new JSObject();
-        ret.put("value", implementation.echo(value));
+        ret.put("status", "enable");
+        call.resolve(ret);
+    }
+
+    @PluginMethod
+    public void disable(PluginCall call) {
+        JSObject ret = new JSObject();
+        ret.put("status", "disable");
         call.resolve(ret);
     }
 }

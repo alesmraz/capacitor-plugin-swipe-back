@@ -6,8 +6,14 @@ export class CapacitorSwipeBackWeb
   extends WebPlugin
   implements CapacitorSwipeBackPlugin
 {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  async enable(): Promise<{ status: 'enable' }> {
+    return new Promise(resolve => {
+      resolve({ status: 'enable' });
+    });
+  }
+  async disable(): Promise<{ status: 'disable' }> {
+    return new Promise(resolve => {
+      resolve({ status: 'disable' });
+    });
   }
 }
