@@ -5,7 +5,7 @@ Capacitor swipe back (ios) plugin. For Capacitor v3+. For v2 use original plugin
 ## Install
 
 ```bash
-npm install capacitor-swipe-back
+npm install capacitor-swipe-back-plugin
 npx cap sync
 ```
 
