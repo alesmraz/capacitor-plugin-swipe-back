@@ -6,7 +6,7 @@ import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
 
-@CapacitorPlugin(name = "CapacitorSwipeBack")
+@CapacitorPlugin(name = "CapacitorSwipeBackPlugin")
 public class CapacitorSwipeBackPlugin extends Plugin {
 
     @PluginMethod

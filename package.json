@@ -1,6 +1,6 @@
 {
   "name": "capacitor-swipe-back-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Capacitor swipe back (ios) plugin. For Capacitor v3+. For v2 use original plugin: https://github.com/diiiary/capacitor-plugin-ios-swipe-back",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorSwipeBack.podspec"
+    "CapacitorSwipeBackPlugin.podspec"
   ],
   "author": "Ales Mraz",
   "license": "MIT",

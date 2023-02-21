@@ -4,7 +4,7 @@ export default {
     {
       file: 'dist/plugin.js',
       format: 'iife',
-      name: 'capacitorCapacitorSwipeBack',
+      name: 'capacitorCapacitorSwipeBackPlugin',
       globals: {
         '@capacitor/core': 'capacitorExports',
       },
