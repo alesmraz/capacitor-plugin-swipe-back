@@ -1,6 +1,6 @@
 # capacitor-swipe-back
 
-Capacitor swipe back plugin. For Capacitor v3, v4 (0.0.3), v5 (1.0.0) and v6 (2.0.0). For v2 use original plugin: https://github.com/diiiary/capacitor-plugin-ios-swipe-back
+Capacitor swipe back plugin. For Capacitor v3, v4 (0.0.3), v5 (1.0.0), v6 (2.0.0) and v7 (3.0.0). For v2 use original plugin: https://github.com/diiiary/capacitor-plugin-ios-swipe-back
 
 ## Install
 
